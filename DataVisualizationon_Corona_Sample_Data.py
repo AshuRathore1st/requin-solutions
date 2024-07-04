@@ -1,14 +1,11 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[39]:
 
 
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
-print(df.columns)
+
 df = pd.read_csv(r"C:\Users\OM BANNA JI\Desktop\corona.csv")
 df.head()
 
@@ -211,10 +208,4 @@ plt.ylabel('Number of Tweets')
 plt.xticks(rotation=45)
 plt.legend(title='Sentiment')
 plt.show()
-
-
-# In[ ]:
-
-
-
 
